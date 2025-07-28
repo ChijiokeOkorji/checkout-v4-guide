@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="media//checkout/screenshot-1.png" alt="Checkout screenshot 1"
+  <img src="media/checkout/screenshot-1.png" alt="Checkout screenshot 1"
        style="max-width:100%; height:auto; display:block;">
 </div>
 
@@ -186,22 +186,22 @@ Response (JSON):
 ## Screenshots
 
 <div align="center">
-  <img src="media//checkout/screenshot-1.png" alt="Checkout screenshot 1"
+  <img src="media/checkout/screenshot-1.png" alt="Checkout screenshot 1"
        style="max-width:100%; height:auto; display:block;">
 </div>
 
 <div align="center">
-  <img src="media//checkout/screenshot-2.png" alt="Checkout screenshot 2"
+  <img src="media/checkout/screenshot-2.png" alt="Checkout screenshot 2"
        style="max-width:100%; height:auto; display:block;">
 </div>
 
 <div align="center">
-  <img src="media//checkout/screenshot-3.png" alt="Checkout screenshot 3"
+  <img src="media/checkout/screenshot-3.png" alt="Checkout screenshot 3"
        style="max-width:100%; height:auto; display:block;">
 </div>
 
 <div align="center">
-  <img src="media//checkout/screenshot-4.png" alt="Checkout screenshot 4"
+  <img src="media/checkout/screenshot-4.png" alt="Checkout screenshot 4"
        style="max-width:100%; height:auto; display:block;">
 </div>
 
