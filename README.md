@@ -7,7 +7,7 @@
 
 This is a guide to utilizing a custom FLutterwave v4 checkout that I built to enhance the experience. This aims to explain the available features, and the steps that can be taken to expeience the functionality first-hand.
 
-_**Note**: While the code remains private, thr project was developed by me, and I am happy to discuss the features and any considerations, as well as go over the code and implementation with interested individuals._
+_**Note**: While the code remains private (for now), the project was developed by me. I am happy to discuss the features and any considerations, as well as go over the code and implementation with interested individuals._
 
 
 ## Table of Contents
