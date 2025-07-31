@@ -5,7 +5,7 @@
 
 # Checkout v4 Guide
 
-This is a guide to utilizing a custom Flutterwave v4 checkout that I built to enhance the payment experience. The checkout was my attempt at answering the question of what a fully customizable checkout might look like, and utilizes [Flutterwave's v4 developer APIs](https://developer.flutterwave.com/v4/docs/introduction-1) to make "dummy payments".
+This is a guide to utilizing a custom Flutterwave v4 checkout that I built to enhance the payment experience. The application was my attempt at answering the question of what a fully customizable checkout might look like, and utilizes [Flutterwave's v4 developer APIs](https://developer.flutterwave.com/v4/docs/introduction-1) to make "dummy payments".
 
 This guide aims to explain the available features of the custom checkout, and the steps that can be taken to expeience the functionality first-hand.
 
