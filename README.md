@@ -16,6 +16,7 @@ _**Note**: While the code remains private (for now), the project was developed b
 - [Key Features](#key-features)
 - [Application Flow Diagrams](#application-flow-diagrams)
 - [Implementation](#implementation)
+- [Testing](#testing)
 - [Screenshots](#screenshots)
 - [Appendix](#appendix)
 
@@ -183,6 +184,20 @@ Response (JSON):
    }
 }
 ```
+
+
+## Testing
+
+### Card
+
+To test card payments, simply use any valid card number and an expiry date in the future. Here is an example, but any valid numbers would suffice:
+* Card Number: `4111111111111111`
+* Expiry Date: `12`/`34`
+* CVV: `123`
+
+For the card PIN and one-time-password (OTP), simply input valid numbers. Here is an example, but any valid number would suffice:
+* PIN: `1234`
+* OTP: `12345`
 
 
 ## Screenshots
