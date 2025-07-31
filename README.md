@@ -5,7 +5,9 @@
 
 # Checkout v4 Guide
 
-This is a guide to utilizing a custom Flutterwave v4 checkout that I built to enhance the payment experience. By default, this service utilizes Flutterwave's v4 developer APIs (dummy payments), and was my attempt at answering the question of what a fully customizable checkout might look like. This guide  aims to explain the available features of the custom checkout, and the steps that can be taken to expeience the functionality first-hand.
+This is a guide to utilizing a custom Flutterwave v4 checkout that I built to enhance the payment experience. The checkout utilizes [Flutterwave's v4 developer APIs](https://developer.flutterwave.com/v4/docs/introduction-1) to make "dummy payments", and was my attempt at answering the question of what a fully customizable checkout might look like.
+
+This guide aims to explain the available features of the custom checkout, and the steps that can be taken to expeience the functionality first-hand.
 
 _**Note**: While the code remains private (for now), the project was developed by me. I am happy to discuss the features and any considerations, as well as go over the code and implementation with interested individuals._
 
@@ -190,12 +192,12 @@ Response (JSON):
 
 ### Card
 
-To test card payments, simply use any valid card number and an expiry date in the future. Here is an example, but any valid numbers would suffice:
+To test card payments, simply use any random numbers and an expiry date in the future. Here is an example, but any valid numbers should suffice:
 * Card Number: `4111111111111111`
 * Expiry Date: `12`/`34`
 * CVV: `123`
 
-For the card PIN and one-time-password (OTP), simply input valid numbers. Here is an example, but any valid number would suffice:
+For the card PIN and one-time-password (OTP), simply input valid numbers. Here is an example, but any valid number should suffice:
 * PIN: `1234`
 * OTP: `12345`
 
