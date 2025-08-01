@@ -87,7 +87,7 @@ The Checkout v4 service enables merchants to securely collect payments by levera
 Follow these four steps to interact with the service endpoints:
 
 ### 1. Generate an OAuth 2.0 Access Token (Public endpoint)
-This allows you to fetch an access token to authorize subsequent API requests. If you already have [developer credentials](https://developer.flutterwave.com/v4/docs/authentication), you can generate your own access tokens. This is just for illustration, and in production environments, this endpoint would not exist.
+This allows you to fetch an access token to authorize subsequent API requests. If you already have [developer credentials](https://developer.flutterwave.com/v4/docs/authentication), you can generate your own access tokens. This is just to allow quick flow demonstration, and in production environments, this endpoint would not exist.
 ```
 curl --location 'https://flw-checkout.vercel.app/api/v1/access-token'
 ```
@@ -128,7 +128,7 @@ Sample Response (JSON):
 ```
 
 ### 3. Retrieve Pre-encrypted Encryption Key
-This returns an encryption key that has already been encrypted with the server's static public key (normally you would manually encrypt your own encryption key with the public server's public key). This is just for illustration, and in production environments, this endpoint would not exist.
+This returns an encryption key that has already been encrypted with the server's static public key (normally you would manually encrypt your own encryption key with the public server's public key). This is just to allow quick demonstration, and in production environments, this endpoint would not exist.
 ```
 curl --location 'https://flw-checkout.vercel.app/api/v1/encrypted-encryption-key' \
 --header 'Authorization: Bearer {{ACCESS_TOKEN}}'
