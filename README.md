@@ -155,7 +155,7 @@ curl --location 'https://flw-checkout.vercel.app/api/v1/checkout-link' \
    "credentials": {
        "encrypted_encryption_key": "{{ENCRYPTED_ENCRYPTION_KEY}}"
    },
-   "reference": "UNIQUE_REFERENCE_STRING",
+   "reference": "{{UNIQUE_REFERENCE_STRING}}",
    "amount": 1234.56,
    "currency": "USD",
    "payment_options": "card, banktransfer",
@@ -165,7 +165,7 @@ curl --location 'https://flw-checkout.vercel.app/api/v1/checkout-link' \
    },
    "customizations": {
        "title": "Custom title",
-       "logo": "https://www.example.com/logo.png",
+       "logo": "https://avatars.githubusercontent.com/u/55364914?v=4", // any publicly accessible image
        "description": "Custom description",
        "colors": {
            "primary": "red",
