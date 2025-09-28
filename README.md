@@ -165,12 +165,12 @@ curl --location 'https://flw-checkout.vercel.app/api/v1/checkout-link' \
    },
    "customizations": {
        "title": "Custom title",
-       "logo": "https://avatars.githubusercontent.com/u/55364914?v=4", // any publicly accessible image
+       "logo": "https://turtletoy.net/thumbnail/439aa8a191.jpg", // any publicly accessible image
        "description": "Custom description",
        "colors": {
-           "primary": "red",
-           "secondary": "#0000FF",
-           "accent": "hsl(120, 100%, 50%)"
+           "primary": "#DD6C59",
+           "secondary": "hsl(190, 100%, 50%)",
+           "accent": "blue"
        }
    }
 }'
